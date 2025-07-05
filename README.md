@@ -8,13 +8,13 @@ The main aim of this project is to understand about the steps involved in fine t
 
 ├── data_collection/   # Scripts and data for scraping & preparing the dataset
 
-   ├── scrape.py   # Script to scrape sports news headlines from the web
-   
-   ├── prompt_formatting.py        # Script to convert scraped data into prompt-response format
-   
-   ├── train.txt                   # Raw headlines (optional intermediate file)
-   
-   ├── train.json                  # Final training dataset in prompt-response JSON format
+      ├── scrape.py   # Script to scrape sports news headlines from the web
+      
+      ├── prompt_formatting.py        # Script to convert scraped data into prompt-response format
+      
+      ├── train.txt                   # Raw headlines (optional intermediate file)
+      
+      ├── train.json                  # Final training dataset in prompt-response JSON format
 
 ├── ft_mistral.ipynb               # Notebook to fine-tune Mistral-7B using LoRA (PEFT + TRL)
 
