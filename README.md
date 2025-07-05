@@ -1,24 +1,24 @@
 # 🏟️ Sports Headline Generator using Mistral-7B + LoRA
 
 This project fine-tunes [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) using Low-Rank Adaptation (LoRA) to generate **catchy and realistic sports news headlines** from a simple instruction prompt.
-
+The main aim of this project is to understand about the steps involved in fine tuning a llm models such as choosing a model, bits and bytes configuration, loading the model, tokenization, lora weight adaptation, training the model and inferencing to check the results
 ---
 
 ## 📦 Project Structure
-
-├── data_collection/ # Scripts or notebooks for scraping and preparing sports headlines
-    ├──scrape.py
-    ├──prompt_formatting.py
-    ├──train.txt
-    ├──train.json
-    
-├── ft_mistral.ipynb # Notebook to fine-tune Mistral-7B using PEFT + TRL
-
-├── README.md # Project documentation
-
-├── pyproject.toml # Dependency and configuration management
-
-├── .gitignore # Files to ignore in version control
+.
+├── data_collection/                # Scripts and data for scraping & preparing the dataset
+│   ├── scrape.py                   # Script to scrape sports news headlines from the web
+│   ├── prompt_formatting.py        # Script to convert scraped data into prompt-response format
+│   ├── train.txt                   # Raw headlines (optional intermediate file)
+│   ├── train.json                  # Final training dataset in prompt-response JSON format
+│
+├── ft_mistral.ipynb               # Notebook to fine-tune Mistral-7B using LoRA (PEFT + TRL)
+│
+├── README.md                      # Project documentation with instructions and usage
+│
+├── pyproject.toml                 # Python dependencies and project metadata
+│
+├── .gitignore                     # Git ignored files (e.g., checkpoints, logs, cache)
 
 
 
