@@ -1,12 +1,13 @@
 # 🏟️ Sports Headline Generator using Mistral-7B + LoRA
 
-This project fine-tunes [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) using Low-Rank Adaptation (LoRA) to generate **catchy and realistic sports news headlines** from a simple instruction prompt.
+This project fine-tunes [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) using Low-Rank Adaptation (LoRA) to generate **catchy and realistic sports news headlines** from a simple instruction prompt.
 
 ---
 
 ## 📦 Project Structure
 
 ├── data_collection/ # Scripts or notebooks for scraping and preparing sports headlines
+
     ├──scrape.py
     ├──prompt_formatting.py
     ├──train.txt
