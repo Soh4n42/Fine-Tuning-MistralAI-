@@ -7,7 +7,6 @@ This project fine-tunes [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistra
 ## 📦 Project Structure
 
 ├── data_collection/ # Scripts or notebooks for scraping and preparing sports headlines
-
     ├──scrape.py
     ├──prompt_formatting.py
     ├──train.txt
