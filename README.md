@@ -11,9 +11,13 @@ This project fine-tunes [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistra
     ├──prompt_formatting.py
     ├──train.txt
     ├──train.json
+    
 ├── ft_mistral.ipynb # Notebook to fine-tune Mistral-7B using PEFT + TRL
+
 ├── README.md # Project documentation
+
 ├── pyproject.toml # Dependency and configuration management
+
 ├── .gitignore # Files to ignore in version control
 
 
@@ -49,7 +53,6 @@ You create a custom dataset of sports news headlines extracted from sources like
 🏋️ Training Objective
 To teach the model to generate well-formed, realistic headlines from a fixed instruction prompt.
 
-##For Inferencing
 
 ### 🔍 Inference Example
 
